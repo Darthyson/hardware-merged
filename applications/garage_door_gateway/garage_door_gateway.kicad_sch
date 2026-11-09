@@ -3425,6 +3425,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "TODO:\nA & B (DATA+-) are flipped\n24V polarity protection diode\n3,3V polarity protection diode\nSolder jumper pad on/off 120R0 terminating resistor\n\nInfo: hoermann_door dimensions: 60x40mm\n(fits into motor connection box)"
+		(exclude_from_sim no)
+		(at 53.34 13.97 0)
+		(size 133.35 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 18 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "11947ef2-1b49-4533-bbc3-5e7b3a49289a")
+	)
 	(text_box "RS485 termination"
 		(exclude_from_sim no)
 		(at 16.51 48.26 0)
@@ -3546,26 +3570,6 @@
 			(justify left top)
 		)
 		(uuid "76a74428-bfb7-4d36-b9ac-4e8025b4b905")
-	)
-	(text_box "TODO 20K0 might be way to high!"
-		(exclude_from_sim no)
-		(at 41.91 53.34 90)
-		(size 3.81 44.45)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 252 65 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "84f33a80-bcdc-4975-ab99-cb7ee742e179")
 	)
 	(text_box "TS_ARM dimensions:\nLxWxH 42.3x27.4x15.0mm"
 		(exclude_from_sim no)
@@ -8710,8 +8714,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 180.34 79.0574 90)
+		(property "Value" "yellow"
+			(at 173.99 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,8 +9948,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 168.91 79.0574 90)
+		(property "Value" "green"
+			(at 162.56 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)

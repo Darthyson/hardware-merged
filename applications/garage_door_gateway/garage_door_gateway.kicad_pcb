@@ -7056,7 +7056,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ffcc4170-a22b-4b21-b094-ba1e0cd45fe9")
 	)
-	(gr_text "Selfbus Garage Door Gateway v0.1"
+	(gr_text "Selfbus Garage Door Gateway v0.2"
 		(at 104.645 131.155 0)
 		(layer "F.SilkS")
 		(uuid "1f0868e9-7389-47ef-8e40-26f1775a8765")
